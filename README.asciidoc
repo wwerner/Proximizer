@@ -5,6 +5,7 @@ Currently changes the background color of the app based on the distance to three
 
 == Parameters
 Works best with
+
 * minimum iBeacon transmission interval, 50 ms for Estimote beacons (which will also drain your beacon's battery) and
 * minimum transmit strength (-20) to have an interaction radius of roughly 2 m diameter
 Of course this varies wildly with different beacons and could to with a decent calibration/smoothing algorithm.
