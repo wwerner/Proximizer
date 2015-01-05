@@ -2,7 +2,20 @@
 <resources>
 
     <string name="app_name">Proximizer</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- preference keys -->
+    <string name="pref_key_red_major" >pref_key_red_major</string>
+    <string name="pref_key_red_minor" >pref_key_red_minor</string>
+    <string name="pref_key_green_major" >pref_key_green_major</string>
+    <string name="pref_key_green_minor" >pref_key_green_minor</string>
+    <string name="pref_key_blue_major" >pref_key_blue_major</string>
+    <string name="pref_key_blue_minor" >pref_key_blue_minor</string>
+    <string name="pref_key_transmit_interval" >pref_key_transmit_interval</string>
+    <string name="pref_key_scan_interval" >pref_key_scan_interval</string>
+    <string name="pref_key_scan_pause" >pref_key_scan_pause</string>
+    <string name="pref_key_blue_uuid">B9407F30-F5F8-466E-AFF9-25556B57FE6D</string>
+    <string name="pref_key_green_uuid">B9407F30-F5F8-466E-AFF9-25556B57FE6D</string>
+    <string name="pref_key_red_uuid">B9407F30-F5F8-466E-AFF9-25556B57FE6D</string>
 
 </resources>

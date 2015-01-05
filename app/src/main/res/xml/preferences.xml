@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:key="category_red" android:title="Red Beacon">
+        <EditTextPreference android:defaultValue="B9407F30-F5F8-466E-AFF9-25556B57FE6D" android:key="@string/pref_key_red_uuid" android:summary="UUID of the red beacon" android:title="Red UUID"/>
+        <EditTextPreference android:defaultValue="1" android:inputType="number" android:key="@string/pref_key_red_major" android:summary="Major ID of the red beacon" android:title="Red Major" android:numeric="integer"/>
+        <EditTextPreference android:defaultValue="1" android:inputType="number" android:key="@string/pref_key_red_minor" android:summary="Minor ID ff the red beacon" android:title="Red Minor" android:numeric="integer"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:key="category_green" android:title="Green Beacon">
+        <EditTextPreference android:defaultValue="B9407F30-F5F8-466E-AFF9-25556B57FE6D" android:key="@string/pref_key_green_uuid" android:summary="UUID of the green beacon" android:title="Green UUID"/>
+        <EditTextPreference android:defaultValue="2" android:inputType="number" android:key="@string/pref_key_green_major" android:summary="Major ID of the green beacon" android:title="Green Major" android:numeric="integer"/>
+        <EditTextPreference android:defaultValue="1" android:inputType="number" android:key="@string/pref_key_green_minor" android:summary="Minor ID ff the green beacon" android:title="Green Minor" android:numeric="integer"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:key="category_blue"  android:title="Blue Beacon">
+        <EditTextPreference android:defaultValue="B9407F30-F5F8-466E-AFF9-25556B57FE6D" android:key="@string/pref_key_blue_uuid" android:summary="UUID of the blue beacon" android:title="Blue UUID"/>
+        <EditTextPreference android:defaultValue="3" android:inputType="number" android:key="@string/pref_key_blue_major" android:summary="Major ID of the blue beacon" android:title="Blue Major" android:numeric="integer"/>
+        <EditTextPreference android:defaultValue="1" android:inputType="number" android:key="@string/pref_key_blue_minor" android:summary="Minor ID ff the blue beacon" android:title="Blue Minor" android:numeric="integer"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:key="category_misc" android:title="Miscellaneous">
+        <!-- not yet implemented <EditTextPreference android:defaultValue="1" android:inputType="number" android:key="@string/pref_key_transmit_interval" android:summary="Interval in which the beacon transmits the signal. Range: 50 - 2000ms. Slower values are better for responsiveness but bad for your beacon's battery." android:title="Beacon transmit interval" android:numeric="integer"/> -->
+        <EditTextPreference android:defaultValue="5" android:inputType="number" android:key="@string/pref_key_scan_interval" android:summary="Interval in which the app scans for beacon signal changes. Slower values are better for responsiveness but bad for your device's battery." android:title="App scan interval" android:numeric="integer"/>
+        <EditTextPreference android:defaultValue="5" android:inputType="number" android:key="@string/pref_key_scan_pause" android:summary="Defines how long the app pauses between two subsequent scans." android:title="App scan pause" android:numeric="integer"/>
+    </PreferenceCategory>
+</PreferenceScreen>
