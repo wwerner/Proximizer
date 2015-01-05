@@ -9,8 +9,8 @@ Works best with
 * minimum transmit strength (-20) to have an interaction radius of roughly 2 m diameter
 Of course this varies wildly with different beacons and could to with a decent calibration/smoothing algorithm.
 
-The beacon UUIDs and Major/Minor IDs are hardcoded currently.
-The values are:
+The beacon UUIDs and Major/Minor IDs can be set via the app's preference page accessible via the old style settings menu.
+The default values are:
 
 * All beacons: Estimote UUID (B9407F30-F5F8-466E-AFF9-25556B57FE6D)
 * All beacons: Major 1
@@ -18,4 +18,6 @@ The values are:
 * G: Minor 2
 * B: Minor 3
 
-Will possibly add the capability to make sounds and evolve into something that turns your dancing into bleeps and blinks. 
+The defaults for the scan interval and scan pause are 5 ms each. This is expensive for your battery. Just sayin'.
+
+Will possibly add the capability to make sounds and let it evolve into something that turns your dancing into bleeps and blinks.
