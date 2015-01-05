@@ -1,0 +1,18 @@
+= Proximizer
+iBeacon proximity experiments.
+
+Currently changes the background color of the app based on the distance to three beacons. Each beacon represents the one RGB color part. 
+
+== Parameters
+Works best with a minimum iBeacon transmission interval, 50 ms for Estimote beacons (which will also drain your beacon's battery). 
+The beacon UUIDs and Major/Minor IDs are hardcoded currently.
+The values are:
+
+* All beacons: Estimote UUID ()
+* All beacons: Major 1
+* R: Minor 1
+* G: Minor 2
+* B: Minor 3
+
+
+Will possibly add the capability to make sounds and evolve into something that turns your dancing into bleeps and blinks. 
