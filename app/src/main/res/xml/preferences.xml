@@ -17,7 +17,7 @@
     </PreferenceCategory>
     <PreferenceCategory android:key="category_misc" android:title="Miscellaneous">
         <!-- not yet implemented <EditTextPreference android:defaultValue="1" android:inputType="number" android:key="@string/pref_key_transmit_interval" android:summary="Interval in which the beacon transmits the signal. Range: 50 - 2000ms. Slower values are better for responsiveness but bad for your beacon's battery." android:title="Beacon transmit interval" android:numeric="integer"/> -->
-        <EditTextPreference android:defaultValue="5" android:inputType="number" android:key="@string/pref_key_scan_interval" android:summary="Interval in which the app scans for beacon signal changes. Slower values are better for responsiveness but bad for your device's battery." android:title="App scan interval" android:numeric="integer"/>
+        <EditTextPreference android:defaultValue="5" android:inputType="number" android:key="@string/pref_key_scan_interval" android:summary="Interval in which the app scans for beacon signal changes. Lower values are better for responsiveness but bad for your device's battery." android:title="App scan interval" android:numeric="integer"/>
         <EditTextPreference android:defaultValue="5" android:inputType="number" android:key="@string/pref_key_scan_pause" android:summary="Defines how long the app pauses between two subsequent scans." android:title="App scan pause" android:numeric="integer"/>
     </PreferenceCategory>
 </PreferenceScreen>
