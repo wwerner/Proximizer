@@ -3,6 +3,8 @@ iBeacon proximity experiments.
 
 Currently changes the background color of the app based on the distance to three beacons. Each beacon represents the one RGB color part. 
 
+You can get the current version in the play store: https://play.google.com/store/apps/details?id=net.wolfgangwerner.ibeacon.proximizer
+
 == Parameters
 Works best with
 
